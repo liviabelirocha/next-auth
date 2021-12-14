@@ -2,7 +2,7 @@ import Router from "next/router";
 import { createContext, ReactNode, useEffect, useState } from "react";
 import { setCookie, parseCookies, destroyCookie } from "nookies";
 
-import { api } from "../services/api";
+import { api } from "../services/apiClient";
 
 type User = {
   email: string;
